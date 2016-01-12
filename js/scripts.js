@@ -42,3 +42,10 @@ $(document).ready(function(){
 
 
 });
+
+//Instead of having to write out nearly identical code each time, perhaps there is a way you can write a more generic code. Here is what we used:
+//
+// $(".thumbnail").click(function() {
+//   $(this).find(".term").toggle();
+//   $(this).find(".definition").toggle();
+// });
